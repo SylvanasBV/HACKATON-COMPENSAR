@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  /* PALETTE */
+  --primary: #FF6600;
+  --secondary: #FF944D;
+  --tertiary: #003366;
+  --quaternary: #6290C8;
+  --sure : #E5E5E5;
+  --nure : #809BCE;
+  /* FONT SIZES */
+  --text-xxxl: 4.8em;
+  --text-xxl: 4.0em;
+  --text-xl: 3.6em;
+  --text-lg: 3.2em;
+  --text-ml: 2.4em;
+  --text-md: 2.2em;
+  --text-sm: 1.6em;
+  --text-xs: 1.2em;
+  --text-xss: 1em;
+  /* SPASING */
+  --sp-lg: 12rem;
+  --sp-md: 8rem ;
+  --sp-sm: 5rem ;
+  --sp-xs: 4rem ;
+  --sp-xss: 3rem ;
+  --sp-xsss: 1.6rem ;
+  --sp-xssss: 0.8rem ;
+}
+
+.App{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
