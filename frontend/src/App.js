@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-        <Row>
+        <Row className='p-0 m-0'>
           <Navbar/>
         </Row>
     </div>
