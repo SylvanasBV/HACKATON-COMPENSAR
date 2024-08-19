@@ -9,8 +9,8 @@ function News() {
 
       return (
           <div className='max-w-screen-xl flex flex-row flex-wrap items-center justify-between mx-auto'>
-            <h2 className='title'>NOVEDADES</h2>
-            <div className='news w-[95%] self-center rounded-2xl m-2 flex'>
+            <h2 className='news_title'>NOVEDADES</h2>
+            <div className='news w-[95%] self-center rounded-2xl m-2 flex shadow-xl shadow-slate-600'>
                 <div className='w-[70%] h-full'>
                     <div className='w-full h-full relative'>
                         <img src={slide1} alt="First Slide"/>

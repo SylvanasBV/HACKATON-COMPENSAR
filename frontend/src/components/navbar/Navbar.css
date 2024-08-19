@@ -35,3 +35,8 @@ p{
     background-color: var(--sure);
 
   }
+
+  .news_title{
+    font-size: var( --text-sm);
+    color: var(--primary);
+  }
