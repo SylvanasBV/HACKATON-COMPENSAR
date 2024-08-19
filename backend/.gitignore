@@ -1,0 +1,16 @@
+# Ignorar archivos de configuración local
+venv
+
+# Ignorar archivos de dependencias específicas (por ejemplo, Python)
+__pycache__/
+*.pyc
+
+# Ignorar archivos de IDE (por ejemplo, Visual Studio Code)
+.vscode/
+.idea/
+*.sublime-*
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
