@@ -1,5 +1,5 @@
 # Ignorar archivos de configuración local
-.venv
+venv
 
 # Ignorar archivos de dependencias específicas (por ejemplo, Python)
 __pycache__/
