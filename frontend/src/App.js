@@ -1,11 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Row from 'react-bootstrap/Row';
-import Column from 'react-bootstrap/Col';
-import Container from 'react-bootstrap/Container';
 import Navbar from './components/navbar/Navbar';
-import { Link } from 'react-router-dom';
+import News from './components/news/News';
 
 
 
@@ -14,6 +11,9 @@ function App() {
     <div className="App">
         <Row className='p-0 m-0'>
           <Navbar/>
+        <div className='p-3'>
+          <News/>
+        </div>
         </Row>
     </div>
   );

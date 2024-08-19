@@ -9,15 +9,17 @@
   --sure : #E5E5E5;
   --nure : #809BCE;
   /* FONT SIZES */
-  --text-xxxl: 4.8em;
-  --text-xxl: 4.0em;
-  --text-xl: 3.6em;
-  --text-lg: 3.2em;
-  --text-ml: 2.4em;
-  --text-md: 2.2em;
-  --text-sm: 1.6em;
+  --text-xxxl: 4.0em;
+  --text-xxl: 3.0em;
+  --text-xl: 2.2em;
+  --text-lg: 2.0em;
+  --text-ml: 1.8em;
+  --text-md: 1.6em;
+  --text-sm: 1.4em;
   --text-xs: 1.2em;
   --text-xss: 1em;
+  --text-xsss: 0.9em;
+
   /* SPASING */
   --sp-lg: 12rem;
   --sp-md: 8rem ;
