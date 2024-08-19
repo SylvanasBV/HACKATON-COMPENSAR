@@ -1,0 +1,23 @@
+.news{
+    background-color: var(--quaternary);
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.title{
+    color: var(--primary);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: var( --text-xss);
+}
+.date{
+    color: rgba(0, 0, 0, 0.279);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--text-xsss);
+}
+.text_box{
+    background-color: #d9d9d99f;
+}
