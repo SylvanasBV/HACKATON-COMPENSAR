@@ -1,0 +1,31 @@
+###
+
+POST http://127.0.0.1:5000/router HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"Buy milk",
+    "description":"Go to the store and buy milk"
+}
+###
+
+GET http://127.0.0.1:5000/router HTTP/1.1
+
+###
+
+GET http://127.0.0.1:5000/router/66c5f811b8c7a682428646b1 HTTP/1.1
+
+
+###
+
+PUT http://127.0.0.1:5000/router/66c5f811b8c7a682428646b1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title":"Learn python and flask",
+    "done" : true 
+}
+
+###
+
+DELETE  http://127.0.0.1:5000/router/66c604441f54fbca7649de35 HTTP/1.1
