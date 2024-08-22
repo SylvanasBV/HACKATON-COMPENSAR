@@ -12,6 +12,7 @@ code {
     monospace;
 }
 
+/* Importacion del uso de libreria tailwinds */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
