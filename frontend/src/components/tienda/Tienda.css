@@ -1,0 +1,6 @@
+.tienda {
+    background-color: var(--sure);
+}
+.tienda_title{
+    font-size: var( --text-md);
+}

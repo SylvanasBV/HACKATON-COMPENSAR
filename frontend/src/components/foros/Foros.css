@@ -1,0 +1,14 @@
+.foros_slide{
+    background-color: var(--sure);
+}
+
+.foros_title{
+    font-size: var( --text-sm);
+}
+
+.foros_content{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: var(--quaternary);
+}
