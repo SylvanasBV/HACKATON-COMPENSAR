@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask_cors import CORS
 from dotenv import load_dotenv
 import os
 from routes.routerMongo import routerMongo 
@@ -9,6 +10,9 @@ config = load_dotenv()#carga variables de entorno
 
 # me trae todas las rutas que estube creando
 app = Flask(__name__) #Constructor: __name__ =punto de inicio para usar este archivo para lanzar mi aplicacion
+
+CORS(app,resources={"*":{"origins":"http//localhost:3000"}})#que podamos consumir esta API desde otras rutas
+#habilitar ciertas rutas
 
 app.config['MONGO_URI'] = os.getenv('MONGO_URI')
 mongo.init_app(app)
