@@ -1,4 +1,4 @@
-from .entities.Movie import Movie
+from .entities.movie import Movie
 from database.bdpostgress import get_connection
 
 class routePostgres():

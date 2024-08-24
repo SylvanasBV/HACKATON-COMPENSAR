@@ -37,7 +37,7 @@ GET http://127.0.0.1:5000/postgress/ HTTP/1.1
 
 ###
 
-GET http://127.0.0.1:5000/postgress/6f296e20-f086-4b81-ac72-7aca2ad3db1b HTTP/1.1
+GET http://127.0.0.1:5000/postgress/15dcc9b5-6c1b-4e2a-9ba0-13b81a9086bf HTTP/1.1
 
 ###
 
@@ -52,11 +52,11 @@ Content-Type: application/json
 
 ###
 
-DELETE http://127.0.0.1:5000/postgress/delete/b4aed49d-69f0-4da8-bf88-7c0ad22731af HTTP/1.1
+DELETE http://127.0.0.1:5000/postgress/delete/81abbdaa-2a43-4d78-9f7b-d5edb8d5845d HTTP/1.1
 
 ###
 
-PUT http://127.0.0.1:5000/postgress/update/81abbdaa-2a43-4d78-9f7b-d5edb8d5845d HTTP/1.1
+PUT http://127.0.0.1:5000/postgress/update/6f296e20-f086-4b81-ac72-7aca2ad3db1b HTTP/1.1
 Content-Type: application/json
 
 {
