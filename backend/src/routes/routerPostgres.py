@@ -2,7 +2,7 @@ from flask import Blueprint, jsonify, request
 import uuid #ayuda a generar ids codigos unicos basado en las fechas y horas actuales
 
 #Entitis
-from services.entities.Movie import Movie
+from services.entities.movie import Movie
 
 #models
 from services.routePostgres import routePostgres
